@@ -1,6 +1,6 @@
-var PouchDbService = angular.module('PouchDbService', ['pouchdb']);
+var PouchDbModule = angular.module('PouchDbModule', ['pouchdb']);
 
-PouchDbService.service('Database', function (pouchDB) {
+PouchDbModule.service('PouchDbService', function (pouchDB) {
     this.getDb = function() {
 		var _db = pouchDB('dbname');
 		return _db;

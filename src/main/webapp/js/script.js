@@ -1,8 +1,8 @@
-var myapp = angular.module('myapp', ['PouchDbService']);
+var myapp = angular.module('myapp', ['PouchDbModule']);
 
-myapp.controller('MainCtrl', function(Database, $log, $scope) {
+myapp.controller('MainCtrl', function(PouchDbService, $log, $scope) {
 	 
-	  var db = Database.getDb();
+	  var db = PouchDbService.getDb();
 	  
 	  var doc = { name: 'Arpit Aggarwal' };
 
