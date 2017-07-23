@@ -4,14 +4,15 @@
 <%@ page contentType="text/html;charset=UTF-8"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 
-<title>YDN DB Demo</title>
-<!-- <script type="text/javascript" src="js/ydn.db-dev.js"></script> -->
+<title>PouchDB</title>
+
 <script type="text/javascript" src="js/angular.min.js"></script>
 
 <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-<script type="text/javascript" src="js/angular-pouchdb.min.js"></script>
+<script type="text/javascript" src="js/pouchdb.min.js"></script>
 
-<script type="text/javascript" src="//cdn.jsdelivr.net/pouchdb/6.2.0/pouchdb.min.js"></script>
+<!-- 
+<script type="text/javascript" src="//cdn.jsdelivr.net/pouchdb/6.0.5/pouchdb.min.js"></script> -->
 <script type="text/javascript" src="js/pouchdb-service.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <!-- 

@@ -27,8 +27,7 @@ module.exports = function(grunt) {
                            'bower_components/angular-material/angular-material.js',
                            'bower_components/angular-messages/angular-messages.js',
                            'bower_components/bootstrap/dist/bootstrap.js',
-                           'bower_components/defiant/dist/defiant.js',
-						   'bower_components/ydn.db/jsc/ydn.db-dev.js'
+                           'bower_components/defiant/dist/defiant.js'
                       ]
                    }
                }
